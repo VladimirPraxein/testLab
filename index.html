@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>testLab</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./vendor/font.css">
+</head>
+
+<body class="page">
+    <header class="header">
+        <div class="header__row">
+            <img src="./images/logo.svg" class="header__logo">
+            <img src="./images/logo-black.svg" class="header__logo-black">
+            <ul class="header__list">
+                <li class="header__item"><a href="#work" class="header__link">Как это работает</a></li>
+                <li class="header__item"><a href="#work__container" class="header__link">3-й блок</a></li>
+                <li class="header__item"><a href="#questions" class="header__link">Вопросы и ответы</a></li>
+                <li class="header__item"><a href="#form" class="header__link">Форма</a></li>
+            </ul>
+            <span class="header__burger"></span>
+        </div>
+        <div class="header__container">
+            <h1 class="header__title">Говорят, никогда не поздно сменить профессию</h1>
+            <p class="header__text">Сделай круто тестовое задание и у тебя получится</p>
+            <button class="header__button">Проще простого!</button>
+        </div>
+    </header>
+    <main>
+        <section class="work" id="work">
+            <h2 class="work__title">Как это работает</h2>
+            <ul class="work__list work-list">
+                <li class="work-list__item">
+                    <img src="./images/waiting.svg" alt="" class="work-list__icon">
+                    <div class="work-list__text">
+                        <h4 class="work-list__title">Прочитай задание внимательно</h4>
+                        <p class="work-list__info">Думаю у тебя не займет это больше двух-трех минут</p>
+                    </div>
+                </li>
+                <li class="work-list__item">
+                    <img src="./images/delivery-truck.svg" alt="" class="work-list__icon">
+                    <div class="work-list__text">
+                        <h4 class="work-list__title">Изучи весь макет заранее</h4>
+                        <p class="work-list__info">Подумай как это будет работать на разных разрешениях и при скролле
+                        </p>
+                    </div>
+                </li>
+                <li class="work-list__item">
+                    <img src="./images/secure.svg" alt="" class="work-list__icon">
+                    <div class="work-list__text">
+                        <h4 class="work-list__title">Сделай хорошо</h4>
+                        <p class="work-list__info">Чтобы мы могли тебе доверить подобные задачи в будущем</p>
+                    </div>
+                </li>
+                <li class="work-list__item">
+                    <img src="./images/money-bags.svg" alt="" class="work-list__icon">
+                    <div class="work-list__text">
+                        <h4 class="work-list__title">Получи предложение</h4>
+                        <p class="work-list__info">Ну тут все просто, не я придумал правила, но думаю так и будет)))</p>
+                    </div>
+                </li>
+            </ul>
+            <div class="work__container" id="work__container">
+                <div class="work__text work-text">
+                    <h3 class="work-text__title">Круто, ты дошел до третьего блока</h3>
+                    <p class="work-text__info">63% опрошенных пользовались кредитами из-за того, что не могли покрыть
+                        непредвиденные расходы
+                        свыше 15 000 ₽.</p>
+                    <p class="work-text__info">Доступ к заработанным деньгам помогает отказаться от кредитов и экономить
+                        деньги на процентах и
+                        штрафах</p>
+                </div>
+                <img class="work__image" src="./images/work.png">
+            </div>
+        </section>
+        <section class="reviews">
+            <h2 class="reviews__title">Отзывы</h2>
+            <div class="reviews__container">
+                <div class="swiper-button-prev"></div>
+                <div class="reviews__slider swiper">
+                    <ul class="swiper-wrapper">
+                        <li class="swiper-slide">
+                            <div class="reviews__profile profile">
+                                <img class="profile__avatar" src="./images/avatar.svg">
+                                <div class="profile__info">
+                                    <p class="profile__name">Константинов Михаил</p>
+                                    <p class="profile__city">Санкт-Петербург</p>
+                                </div>
+                            </div>
+                            <p class="profile__comment">Каждый из нас понимает очевидную вещь: перспективное
+                                планирование предоставляет
+                                широкие возможности для анализа существующих паттернов поведения. В своём стремлении
+                                улучшить пользовательский опыт мы Каждый из нас понимает очевидную вещь: перспективное
+                                планирование предоставляет
+                                широкие возможности для анализа существующих паттернов поведения. В своём стремлении
+                                улучшить пользовательский опыт мы </p>
+                        </li>
+                        <li class="swiper-slide">
+                            <div class="reviews__profile profile">
+                                <img class="profile__avatar" src="./images/avatar.svg">
+                                <div class="profile__info">
+                                    <p class="profile__name">Константинов Михаил Павлович</p>
+                                    <p class="profile__city">Санкт-Петербург</p>
+                                </div>
+                            </div>
+                            <p class="profile__comment">Каждый из нас понимает очевидную вещь: перспективное
+                                планирование предоставляет
+                                широкие возможности для анализа существующих паттернов поведения. В своём стремлении
+                                улучшить пользовательский опыт мы</p>
+                        </li>
+                        <li class="swiper-slide">
+                            <div class="reviews__profile profile">
+                                <img class="profile__avatar" src="./images/avatar.svg">
+                                <div class="profile__info">
+                                    <p class="profile__name">Константинов Михаил Павлович</p>
+                                    <p class="profile__city">Санкт-Петербург</p>
+                                </div>
+                            </div>
+                            <p class="profile__comment">Каждый из нас понимает очевидную вещь: перспективное
+                                планирование предоставляет
+                                широкие возможности для анализа существующих паттернов поведения. В своём стремлении
+                                улучшить пользовательский опыт мы Каждый из нас понимает очевидную вещь: перспективное
+                                планирование предоставляет
+                                широкие возможности для анализа существующих паттернов поведения. В своём стремлении
+                                улучшить пользовательский опыт мы </p>
+                        </li>
+                        <li class="swiper-slide">
+                            <div class="reviews__profile profile">
+                                <img class="profile__avatar" src="./images/avatar.svg">
+                                <div class="profile__info">
+                                    <p class="profile__name">Константинов Михаил Павлович</p>
+                                    <p class="profile__city">Санкт-Петербург</p>
+                                </div>
+                            </div>
+                            <p class="profile__comment">Каждый из нас понимает очевидную вещь: перспективное
+                                планирование предоставляет
+                                широкие возможности для анализа существующих паттернов поведения. В своём стремлении
+                                улучшить пользовательский опыт мы Каждый из нас понимает очевидную вещь: перспективное
+                                планирование предоставляет
+                                широкие возможности для анализа существующих паттернов поведения. В своём стремлении
+                                улучшить пользовательский опыт мы </p>
+                        </li>
+                        <li class="swiper-slide">
+                            <div class="reviews__profile profile">
+                                <img class="profile__avatar" src="./images/avatar.svg">
+                                <div class="profile__info">
+                                    <p class="profile__name">Константинов Михаил Павлович</p>
+                                    <p class="profile__city">Санкт-Петербург</p>
+                                </div>
+                            </div>
+                            <p class="profile__comment">Каждый из нас понимает очевидную вещь: перспективное
+                                планирование предоставляет
+                                широкие возможности для анализа существующих паттернов поведения. В своём стремлении
+                                улучшить пользовательский опыт мы Каждый из нас понимает очевидную вещь: перспективное
+                                планирование предоставляет
+                                широкие возможности для анализа существующих паттернов поведения. В своём стремлении
+                                улучшить пользовательский опыт мы </p>
+                        </li>
+                        <li class="swiper-slide">
+                            <div class="reviews__profile profile">
+                                <img class="profile__avatar" src="./images/avatar.svg">
+                                <div class="profile__info">
+                                    <p class="profile__name">Константинов Михаил Павлович</p>
+                                    <p class="profile__city">Санкт-Петербург</p>
+                                </div>
+                            </div>
+                            <p class="profile__comment">Каждый из нас понимает очевидную вещь: перспективное
+                                планирование предоставляет
+                                широкие возможности для анализа существующих паттернов поведения. В своём стремлении
+                                улучшить пользовательский опыт мы </p>
+                        </li>
+                        <li class="swiper-slide">
+                            <div class="reviews__profile profile">
+                                <img class="profile__avatar" src="./images/avatar.svg">
+                                <div class="profile__info">
+                                    <p class="profile__name">Константинов Михаил Павлович</p>
+                                    <p class="profile__city">Санкт-Петербург</p>
+                                </div>
+                            </div>
+                            <p class="profile__comment">Каждый из нас понимает очевидную вещь: перспективное
+                                планирование предоставляет
+                                широкие возможности для анализа существующих паттернов поведения. В своём стремлении
+                                улучшить пользовательский опыт мы </p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="swiper-button-next"></div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </section>
+        <section class="questions" id="questions">
+            <h2 class="questions__title">Вопросы и ответы</h2>
+            <ul class="questions__list">
+                <li class="questions__item">
+                    <div class="questions__row">
+                        <p class="questions__link">Подтверждено: сознание наших соотечественников не замутнено
+                            пропагандой?</p>
+                        <span class="questions__icon"></span>
+                    </div>
+                    <p class="questions__text">
+                        В частности, дальнейшее развитие различных форм деятельности позволяет выполнить важные задания
+                        по разработке дальнейших направлений развития. Предварительные выводы неутешительны:
+                        экономическая повестка сегодняшнего дня говорит о возможностях существующих финансовых и
+                        административных условий.
+                    </p>
+                </li>
+                <li class="questions__item">
+                    <div class="questions__row">
+                        <p class="questions__link">Прототип нового сервиса - это как трубный призыв?</p>
+                        <span class="questions__icon"></span>
+                    </div>
+                    <p class="questions__text">
+                        В частности, дальнейшее развитие различных форм деятельности позволяет выполнить важные задания
+                        по разработке дальнейших направлений развития. Предварительные выводы неутешительны:
+                        экономическая повестка сегодняшнего дня говорит о возможностях существующих финансовых и
+                        административных условий.
+                    </p>
+                </li>
+                <li class="questions__item">
+                    <div class="questions__row">
+                        <p class="questions__link">Частокол на границе продолжает удивлять?</p>
+                        <span class="questions__icon"></span>
+                    </div>
+                    <p class="questions__text">
+                        В частности, дальнейшее развитие различных форм деятельности позволяет выполнить важные задания
+                        по разработке дальнейших направлений развития. Предварительные выводы неутешительны:
+                        экономическая повестка сегодняшнего дня говорит о возможностях существующих финансовых и
+                        административных условий.
+                    </p>
+                </li>
+                <li class="questions__item">
+                    <div class="questions__row">
+                        <p class="questions__link">Очевидцы сообщают, что слышали грохот грома градущих изменений?</p>
+                        <span class="questions__icon"></span>
+                    </div>
+                    <p class="questions__text">
+                        В частности, дальнейшее развитие различных форм деятельности позволяет выполнить важные задания
+                        по разработке дальнейших направлений развития. Предварительные выводы неутешительны:
+                        экономическая повестка сегодняшнего дня говорит о возможностях существующих финансовых и
+                        административных условий.
+                    </p>
+                </li>
+                <li class="questions__item">
+                    <div class="questions__row">
+                        <p class="questions__link">И по сей день в центральных регионах звучит перекатами печальный плач
+                            оппозиции?</p>
+                        <span class="questions__icon"></span>
+                    </div>
+                    <p class="questions__text">
+                        В частности, дальнейшее развитие различных форм деятельности позволяет выполнить важные задания
+                        по разработке дальнейших направлений развития. Предварительные выводы неутешительны:
+                        экономическая повестка сегодняшнего дня говорит о возможностях существующих финансовых и
+                        административных условий.
+                    </p>
+                </li>
+                <li class="questions__item">
+                    <div class="questions__row">
+                        <p class="questions__link">Нынче никто не может себе позволить инициировать треск разлетающихся
+                            скреп?</p>
+                        <span class="questions__icon"></span>
+                    </div>
+                    <p class="questions__text">
+                        В частности, дальнейшее развитие различных форм деятельности позволяет выполнить важные задания
+                        по разработке дальнейших направлений развития. Предварительные выводы неутешительны:
+                        экономическая повестка сегодняшнего дня говорит о возможностях существующих финансовых и
+                        административных условий.
+                    </p>
+                </li>
+                <li class="questions__item">
+                    <div class="questions__row">
+                        <p class="questions__link">Высококачественный прототип будущего проекта обнадёживает?</p>
+                        <span class="questions__icon"></span>
+                    </div>
+                    <p class="questions__text">
+                        В частности, дальнейшее развитие различных форм деятельности позволяет выполнить важные задания
+                        по разработке дальнейших направлений развития. Предварительные выводы неутешительны:
+                        экономическая повестка сегодняшнего дня говорит о возможностях существующих финансовых и
+                        административных условий.
+                    </p>
+                </li>
+            </ul>
+        </section>
+        <section class="info">
+            <div class="info__wrapper">
+                <div class="info__container">
+                    <h3 class="info__title">Опрошенных пользовались микрокредитами</h3>
+                    <p class="info__text">Не могли покрыть внезапные траты свыше 7000 ₽. Доступ к заработанным деньгам
+                        помогает отказаться от кредитов и экономить деньги на процентах и штрафах Не могли покрыть
+                        внезапные
+                        траты свыше 7000 ₽. Доступ к заработанным деньгам помогает отказаться от кредитов и экономить
+                        деньги
+                        на процентах и штрафах</p>
+                </div>
+                <div class="info__container">
+                    <h3 class="info__title">Опрошенных пользовались микрокредитами</h3>
+                    <p class="info__text">Не могли покрыть внезапные траты свыше 7000 ₽. Доступ к заработанным деньгам
+                        помогает отказаться от кредитов и экономить деньги на процентах и штрафах Не могли покрыть
+                        внезапные
+                        траты свыше 7000 ₽. Доступ к заработанным деньгам помогает отказаться от кредитов и экономить
+                        деньги
+                        на процентах и штрафахНе могли покрыть внезапные траты свыше 7000 ₽. Доступ к заработанным
+                        деньгам
+                        помогает отказаться от кредитов и экономить деньги на процентах и штрафах</p>
+                </div>
+                <div class="info__container">
+                    <h3 class="info__title">Опрошенных пользовались микрокредитами</h3>
+                    <p class="info__text">Не могли покрыть внезапные траты свыше 7000 ₽. Доступ к заработанным деньгам
+                        помогает отказаться от кредитов и экономить деньги на процентах и штрафах Не могли покрыть
+                        внезапные
+                        траты свыше 7000 ₽. Доступ к заработанным деньгам помогает отказаться от кредитов и экономить
+                        деньги
+                        на процентах и штрафахНе могли покрыть внезапные траты свыше 7000 ₽. Доступ к заработанным
+                        деньгам
+                        помогает отказаться от кредитов и экономить деньги на процентах и штрафах</p>
+                </div>
+                <div class="info__container">
+                    <h3 class="info__title">Опрошенных пользовались микрокредитами</h3>
+                    <p class="info__text">Не могли покрыть внезапные траты свыше 7000 ₽. Доступ к заработанным деньгам
+                        помогает отказаться от кредитов и экономить деньги на процентах и штрафах Не могли покрыть
+                        внезапные
+                        траты свыше 7000 ₽. Доступ к заработанным деньгам помогает отказаться от кредитов и экономить
+                        деньги
+                        на процентах и штрафах</p>
+                </div>
+            </div>
+        </section>
+        <section class="form-info" id="form">
+            <h2 class="form-info__title">Отправь форму</h2>
+            <form action="#" name='info' class="form" novalidate>
+                <div class="form__inputs">
+                    <div class="form__container">
+                        <input class="form__input" type="text" name="name" required placeholder="Имя" />
+                        <label class="form__label">Имя</label>
+                        <span class="form__error name-error"></span>
+                        <span class="form__icon name-icon"></span>
+                    </div>
+                    <div class="form__container">
+                        <input class="form__input" type="tel" name="phone" required placeholder="Телефон" />
+                        <label class="form__label">Телефон</label>
+                        <span class="form__error phone-error"></span>
+                        <span class="form__icon phone-icon"></span>
+                    </div>
+                </div>
+                <div class="form__buttons">
+                    <div class="form__agreement">
+                        <input id="happy" type="checkbox" class="form__checkbox">
+                        <label for="happy"></label>
+                        <p class="form__text">Согласен, отказываюсь</p>
+                    </div>
+                    <button type="submit" class="form__submit">Отправить</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+        <p class="footer__text">© 2021 Лаборатория интернет</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>
